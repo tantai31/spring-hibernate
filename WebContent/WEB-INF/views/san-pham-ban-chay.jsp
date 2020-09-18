@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>    
 <table class="table table-striped table-inverse table-responsive">
-                          <thead class="thead-inverse text-primary text-nowcrap">
+                          <thead class="thead-inverse text-primary text-nowrap">
                               <tr>
                                   <th>Hình</th>
                                   <th>Tên sữa</th>
