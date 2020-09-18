@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+<!-- Default Main Template -->
+ <definition  name="home" template="/WEB-INF/templates/home.jsp">
+    <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+    <put-attribute name="dauTrang" value=""/>
+    <put-attribute name="cuoiTrang" value=""/>
+    <put-attribute name="thucDon" value="/WEB-INF/views/menu-trai.jsp"/>
+    <put-attribute name="noiDung" value="/WEB-INF/views/san-pham.jsp"/>
+  </definition>
+  <definition name="sua-theo-hang" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="thucDon" value="/WEB-INF/views/menu-trai.jsp"/>
+    <put-attribute name="noiDung" value="/WEB-INF/views/san-pham-theo-hang.jsp"/>
+  </definition>
+  <definition name="sua-theo-loai" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="thucDon" value="/WEB-INF/views/menu-trai.jsp"/>
+    <put-attribute name="noiDung" value="/WEB-INF/views/san-pham-theo-loai.jsp"/>
+  </definition>
+  <definition name="sua-ban-chay" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="thucDon" value="/WEB-INF/views/menu-sua-ban-chay.jsp"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/san-pham-ban-chay.jsp"/>
+  </definition>
+  <definition name="chi-tiet-san-pham" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/chi-tiet-san-pham.jsp"/>
+  </definition>
+  <definition name="tim-kiem-sua" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/tim-kiem-sua.jsp"/>
+  </definition>
+   <definition name="login" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/trang-dang-nhap.jsp"/>
+  </definition>
+  <definition name="them-san-pham" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/them-san-pham.jsp"/>
+  </definition>
+  <definition name="trang-gio-hang" extends="home">
+     <put-attribute name="tieuDe" type="string" value="QL Ban Sua"/>
+     <put-attribute name="noiDung" value="/WEB-INF/views/trang-gio-hang.jsp"/>
+  </definition>
+</tiles-definitions>
